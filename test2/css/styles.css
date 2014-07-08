@@ -1,0 +1,74 @@
+/*@media screen and (min-width: 900px){
+	body {
+		background-color: green;
+	}
+}*/
+
+* {
+	margin:0;
+	padding:0;
+}
+	
+#one  {
+	width:33.333%;
+	height:100px;
+	float: left;
+	background-color: blue;
+}
+
+#two  {
+	width:33.333%;
+	height:200px;
+	float:left;
+	background-color: red;
+}
+
+#three  {
+	width:33.333%;
+	height:300px;
+	float: right;
+	background-color: green;
+}
+
+
+@media screen and (max-width: 550px) {
+		
+		#one  {
+		background-color: green;
+		height:500px;
+		float: right;
+	}
+		#two  {
+		background-color: yellow;
+		height:100px;
+		float: right;
+
+	}
+		#three  {
+		background-color: red;
+		height:300px;
+		float: left;
+
+	}
+}
+
+@media screen and (max-width: 350px) {
+		
+		#one  {
+		background-color: yellow;
+		height:200px;
+		display: block;
+	}
+		#two  {
+		background-color: red;
+		height:300px;
+		display: block;
+
+	}
+		#three  {
+		background-color: green;
+		height:100px;
+		display: block;
+
+	}
+}
